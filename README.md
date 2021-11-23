@@ -1,3 +1,56 @@
+Ubuntu 配置 v2ray 
+
+下载
+https://github.com/Qv2ray/Qv2ray
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmsvyprhyj311e0podiy.jpg)
+下载后，放在/opt/qv2ray/目录下
+
+```
+执行以下命令：
+
+sudo chmod +x ./Qv2ray-v2.7.0-linux-x64.AppImage
+
+输入以下命令(非root用户执行)：
+
+./Qv2ray-v2.7.0-linux-x64.AppImage
+
+```
+
+
+
+### 配置链接服务器
+
+执行后会出现主界面，点击导入
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmt0d3lzhj30yd0u00wb.jpg)
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmt1d5ln9j30qe0pc75z.jpg)
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmt4cz3aqj311f0u078w.jpg)
+
+
+
+https://github.com/qv2ray/vcore
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmsx6kg35j30m803ldfy.jpg)
+下载 ： v2ray-linux-64.zip 
+然后解压到/home/user/.config/v2ray下面
+
+
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmt5ffklfj311f0u041x.jpg)
+
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmt6ndsj3j311c0u0wi9.jpg)
+
+配置本机网络代理为手动：
+临时使用：
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gwmtkapeuej30zz0u0gns.jpg)
+
+推荐： Chrome 扩展插件：SwitchySharp
+
+
+
+-------------------
+
 # ssr-install-shellscript
 one click to install ssr/ss
 # 使用说明见: 
